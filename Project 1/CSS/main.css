@@ -1,0 +1,22 @@
+
+body{
+	background-color: #033544;
+	font-family: fantasy;
+	color: #ffffff;
+	
+}
+
+
+}
+#title {padding: 20px ;
+	border: 1px black solid ;
+	margin: 5px 20px 5px 20px ;
+	color: #000000;
+	text-align:center;
+	background-color: #0f84b7;
+	background-repeat: no-repeat;
+	background-position: center center;
+	font-family: cursive;
+	border-radius: 22px;
+	
+}
