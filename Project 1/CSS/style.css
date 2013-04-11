@@ -1,7 +1,7 @@
 /*
 Pedro J Rodriguez
-MIU 1303
- 06Mar2013
+MIU 1304
+Style Sheet
 */
 
 body{
@@ -48,9 +48,9 @@ body{
 
 
 h1 {
-	padding: 20px ;
+	padding: 0px 28px 15px 30px ;
 	border: 2px solid rgba(3,167,203,1) ;
-	margin: 5px 20px 5px 20px ;
+	margin: 0px 20px 5px 20px ;
 	color: #00b3ff;
 	background-color: black;
 	background-image: url(../Images/logo.png);
@@ -60,7 +60,6 @@ h1 {
 	border-radius: 10px;
 	text-shadow: 0px 0px 0px #02eaff;
 	text-align: right;
-	
 }
 
 li{
@@ -165,7 +164,7 @@ textarea {
 
 
 #formFeature {
-	background-color: #000000;
+	background-color: black;
 	border: 1px solid black;
 	border-radius: 22px;
 	text-align:  left;
@@ -252,10 +251,17 @@ textarea {
 
 #formFeatureButtonOne {
 	margin-left: 50px;
+	background-color: black;
+	color: #00c4ff;
+	font-size: 12pt;
+	
 }
 #formFeatureButtonTwo {
 	margin-left: 50px;
 	margin-bottom: -100;
+	background-color: black;
+	color: #00c4ff;
+	font-size: 12pt;
 }
 
 #product {
@@ -272,4 +278,15 @@ textarea {
 }
 #video {
 	color: aqua;
+}
+#headingText {
+	display: left;
+	font-size: 10pt;
+	
+}
+#cakeDesigns {
+	font-size: 18pt;
+	margin-bottom: -20px;
+	text-align: left;
+	margin-top: -25px;
 }
