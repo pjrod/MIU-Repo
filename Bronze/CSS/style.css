@@ -1,0 +1,258 @@
+/*
+Pedro J Rodriguez
+MIU 1303
+ 06Mar2013
+*/
+
+body{
+	background-color: #033544;
+	font-family: Arial;
+	color: aqua;
+	
+}
+
+
+#formPartOne {
+	
+	background-color: transparent;
+	background-repeat: no-repeat;
+	margin-bottom: 25px;
+	
+}
+
+#formPartTwo {
+	background-color: transparent;
+	background-repeat: no-repeat;
+	margin-top: 20px;
+	
+}
+
+
+#legendOne{ 
+
+	font-family: fantasy;
+	
+}
+
+#legendTwo{
+	font-family: fantasy;
+	text-decoration: underline;
+	
+	 
+}
+
+#addItemHeader {
+	font-family: fantasy;
+	
+}
+
+
+/*h1 {
+	padding: 20px ;
+	border: 2px solid rgba(3,167,203,1) ;
+	margin: 5px 20px 5px 20px ;
+	color: #00b3ff;
+	background-color: black;
+	background-image: url(../Images/logo.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	font-family:fantasy;
+	border-radius: 10px;
+	text-shadow: 0px 0px 0px #02eaff;
+	text-align: right;
+	
+}*/
+
+/*li{
+	display:block;
+	
+}*/
+
+h3 {
+	font-style: normal;
+	font-variant: small-caps;
+	font-family: "Times New Roman";
+	
+}
+
+/*p{
+	color:  ;
+	font-style: italic;
+	font-family:  Verdana;
+	font-weight: normal;
+	line-height: 14px ;
+	letter-spacing:1px;
+	text-indent:10px;
+	text-align: block;
+}*/
+
+
+/*Label {
+	font-family: "Times New Roman";
+	
+}
+*/
+#firstName {
+	display: block;
+	
+}
+
+#lastName {
+	display: block;
+}
+
+#email {
+	display: block
+	
+}
+
+select {
+	display: block;
+	font-family: cursive;
+}
+
+#rangeSlider {
+	display: block;
+}
+
+#duedate {
+	display: block;
+}
+textarea {
+	display: block;
+	
+}
+
+#proceed {
+	font-variant: small-caps;
+	position: left;
+}
+
+#reset {
+	font-variant: small-caps;
+	position: center;
+	
+}
+
+#displayData {
+	font-variant: small-caps;
+	position: right;
+	
+}
+
+#valErrors {
+	color: #ff0000;
+	text-shadow: 5px 5px 10px #000000;
+	text-decoration: underline;
+}
+
+
+
+
+#title {padding: 20px ;
+	border: 1px black solid ;
+	margin: 5px 20px 5px 20px ;
+	color: #000000;
+	text-align: left;
+	background-color: #0f84b7;
+	background-repeat: no-repeat;
+	background-position: right center;
+	font-family: cursive;
+	border-radius: 22px;
+
+	
+}
+
+
+#formFeature {
+	background-color: #000000;
+	border: 1px solid black;
+	border-radius: 22px;
+	text-align:  left;
+	position: relative;
+	background-size: 50px;
+	display:-webkit-box;
+	font-family: fantasy;
+	
+	
+	
+	
+}
+#cakepops {	
+ 	height: 60px;
+ 	width: 85px;
+ 	margin: 23px 0px 0px 22px;
+ 	
+  	}
+
+#quickOrder {
+	background-color: black;
+	border-radius: 20px;
+	font-family: fantasy;
+	text-shadow: 1px 1px 1px #02d9ff;
+	background: -webkit-linear-gradient(rgba(22,150,196,0.7) 16.89%, #ffffff 100%);
+	
+}
+
+#ourProducts {
+	background-color: black;
+	border-radius: 20px;
+	font-family: fantasy;
+	text-shadow: 1px 1px 1px #02d9ff;
+	background: -webkit-linear-gradient(rgba(22,150,196,0.7) 16.89%, #ffffff 100%);
+}
+#searchButton {
+	display: inline;
+	position: absolute;
+	
+}
+#search {
+	background-color: black;
+	color: #00c4ff;
+	margin-top: 10px;
+}
+
+#q		{
+	background-color: black;
+	margin-top: 10px;
+	color: aqua;
+}
+
+#products {
+	background-color: #000000;
+	border-radius: 22px;
+	position: relative;
+	margin: 7px;
+	width: 200px;
+	text-align: -webkit-center;
+	color: aqua; 
+	width: 100%;
+	border: 1px inset #02cdfb;
+	margin-left: -20px;
+}
+
+/*#footer {
+	background-color: #b4b9ba;
+	border-radius: 22px;
+	position: relative;
+	margin: 7px;
+	width: 200px;
+	text-align: -webkit-center; 
+	display: inline;
+	border: 1px inset #02cdfb;
+	margin-top: 25px;
+	
+}*/
+
+#welcome{
+	text-align: center;
+	color: aqua;
+}
+
+
+label.error{
+	display: block; margin: 10px 0; color:#f50505;
+}
+#ErrorLink{
+	display: none;
+}
