@@ -1,7 +1,7 @@
 <!doctype html>
 <!-- Pedro J Rodriguez -->
 <!-- MIU Index.html -->
-<!-- MIU 1303 -->
+<!-- MIU 1304 -->
 <!-- Bronze App -->
 <html lang="en">
 	
@@ -27,45 +27,64 @@
 <body>
 	<div data-role="page" id="home" data-theme="a">
 		<div data-role="header" >
-			<div class="ui-grid-a">
-				<div class="ui-block-a"><img src="images/logo.png"></div>
-				<div class="ui-block-b"><h1>Cake Designs</h1>
-				<p><a href="#formpage" data-role="button" data-icon="arrow-r" data-iconpos="right" data-theme="b" data-inline="true">Place Order Now</a></p>
-				</div>
+			<div id="formFeature">
+				<div class="ui-grid-a">
+					<div class="ui-block-a"><img src="Images/logo2.jpg"></div>
+					<div class="ui-block-b">
+						<p><div id="cakeDesigns">Cake Designs</div></p>
+							
+							<p><a href="additem.html" data-ajax="false"><input type="button" value="Place Order" id="formFeatureButtonOne" data-theme="b"></a></p>
+					</div>
+				</div>		
 			</div>
 		</div>
 		<div data-role="content" data-theme="a">
 			<ul data-role="listview" data-inset="true" data-filter="true" data-filter-theme="a" data-theme="b">
-				<li><a href="#Products">Our Products</a></li>
-			 	<li><a href="#Error">Product Galleries</a></li>
-			 	<li><a href="#formpage">Place Order</a></li>
-			 	<li><a href="#Error">Calendar</a></li>
-			 	<li><a href="#Error">Video Resources</a></li>
+				<li><a href="#Products">Our Products
+					<p>What we have to offer</p>
+					</a>
+				</li>
+			 	<li><a href="404Error.html">Product Galleries
+			 		<p>Take a look at our product galleries</p>
+			 		</a>
+			 	</li>
+			 	<li><a href="404Error.html">Work Shops
+			 		<p>Experience the art of cake making</p>
+			 		</a>
+			 		</li>
+			 	<li><a href="404Error.html">Calendar
+				 	<p>View available dates for orders</p>
+				 	</a>
+				 </li>
+			 	<li><a href="404Error.html">Video Resources
+				 	<p>Educational cake related videos</p>
+				 	</a>
+			 	</li>
 	
 			</ul>
 		</div>
 			<div data-role="footer" data-position="fixed" data-id="home">
 				<div data-role="navbar">
 					<ul>
-						<li><a href="#home" data-icon="home">Home</a></li>
+						<li><a href="#home" data-icon="home" class="ui-btn-active">Home</a></li>
 						<li><a href="#About" data-icon="info">About</a></li>
-						<li><a href="#Error" data-icon="grid">News</a></li>
-						<li><a href="#Error" data-icon="gear">Terms</a></li>
+						<li><a href="#NewStream" data-icon="grid">News</a></li>
+						<li><a href="404Error.html" data-icon="gear">Terms</a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
 <!-- Products page -->
-	<div data-role="page" id="Products" data-add-back-btn="true">
+	<div data-role="page" id="Products" data-add-back-btn="true" data-theme="a">
 		<div data-role="header" data-position="fixed">
-			<h1>Products</h1>
+			<h2>Products</h2>
 		</div>
 		<div data-role="content" data-theme="a">
 			<div data-role="collapsible" data-theme="a">
-				<h3>Two of our products</h3>
+				<h3>Our products</h3>
 					<div class="ui-grid-a">
-						<div class="ui-block-a"><img src="images/cakepops.jpg"><strong><p>Cake Pops</p></strong></div>
-						<div class="ui-block-b"><img src="images/Biscocho.jpg"><strong ><p>Cakes</p></strong></div>
+						<div class="ui-block-a"><img src="images/cakepops2.jpg"><p>Cake Pops</p></div>
+						<div class="ui-block-b"><img src="images/Biscocho2.jpg"><p>Cakes</p></div>
 					</div>
 			</div>
 		</div>
@@ -74,21 +93,21 @@
 					<ul>
 						<li><a href="index.html" data-icon="home">Home</a></li>
 						<li><a href="#About" data-icon="info">About</a></li>
-						<li><a href="#Error" data-icon="grid">News</a></li>
-						<li><a href="#Error" data-icon="gear">Terms</a></li>
+						<li><a href="#NewStream" data-icon="grid">News</a></li>
+						<li><a href="404Error.html" data-icon="gear">Terms</a></li>
 					</ul>
 				</div>
 		</div>
 	</div>
 <!-- About Page -->
-	<div data-role="page" id="About" data-add-back-btn="true">
+	<div data-role="page" id="About" data-add-back-btn="true" data-theme="a">
 		<div data-role="header" data-position="fixed">
-			<h1>About Us</h1>
+			<h2>About Us</h2>
 		</div>
-		<div data-role="content" data-theme="a">
-				<div data-role="collapsible" data-theme"a">
+		<div data-role="content" >
+				<div data-role="collapsible" data-theme="b">
 					<h3>About EndulsArte</h3>
-					<p>EndulsArte is a home cake business that my mother in law owns. She makes cakes among other goodies for almost any occation.  She focuses on the artistic part and flavor.</p>
+					<p>EndulsArte is a home cake business that my mother in law owns. She makes cakes among other goodies for almost any ocation.  She focuses on the artistic part and flavor.</p>
 					<p>This App will allow you to enter your email along with other information for a specific purpose that being either requesting information, subscribing, or placing an order.</p>
 						<ul data-role="listview">
 							<li data-role="list-divider"><h4>EdulseArte Facebook</h4></li>
@@ -96,24 +115,14 @@
 						</ul>
 				</div>
 				<div data-role="collapsible" data-theme="a">
-					<h3>Bronze App</h3>
-					<p>Link to Bronze App</p>
-					<p><a href="../Bronze App/index.html" data-ajax="false">Bronze App</a></p>
+					<h3>Gold App</h3>
+					<p>Link to Gold App</p>
+					<p><a href="../Gold/index.html" data-ajax="false">Gold App</a></p>
 				</div>
-				<div data-role="collapsible" data-theme="a">
+				<div data-role="collapsible" data-theme="b">
 					<h3>GitHub Repository</h3>
 					<p>Link to GitHub Repo</p>
-					<p><a href="https://github.com/pjrod/MIU-Projects-Repo.git">Repo</a></p>
-				</div>
-				<div data-role="collapsible" data-theme="a">
-					<h3>GH Pages for Gold App</h3>
-					<p>Link to GH-Pages for Gold App</p>
-					<p><a href="https://github.com/pjrod/MIU-Projects-Repo/tree/master/Gold%20App">Gold App</a></p>
-				</div>
-				<div data-role="collapsible" data-theme="a">
-					<h3>GH Pages for Bronze App</h3>
-					<p>Link to GH-Pages for Bronze App</p>
-					<p><a href="https://github.com/pjrod/MIU-Projects-Repo/tree/master/Bronze%20App">Bronze App</a></p>
+					<p><a href="https://github.com/pjrod/MIU-Repo.git">Repo</a></p>
 				</div>
 				<div data-role="collapsible" data-theme="a">
 					<h3>Credits</h3>
@@ -125,151 +134,77 @@
 				<ul>
 					<li><a href="index.html" data-icon="home">Home</a></li>
 					<li><a href="#About" data-icon="info" class="ui-btn-active">About</a></li>
-					<li><a href="#Error" data-icon="grid">News</a></li>
-					<li><a href="#Error" data-icon="gear">Terms</a></li>
+					<li><a href="#NewStream" data-icon="grid">News</a></li>
+					<li><a href="404Error.html" data-icon="gear">Terms</a></li>
 				</ul>
 			</div>
 		</div>
 	</div>
-<!-- 404 Error Page -->
-
-<div data-role="page" id="Error" data-theme="a" data-add-back-btn="true">
+<!--Newstream Page -->
+	<div data-role="page" id="NewStream" data-add-back-btn="true" data-theme="a">
 		<div data-role="header" data-position="fixed">
-			<h1>404 Error</h1>
+			<h2>News</h2>
 		</div>
-		<div data-role="content">
-			<p>"Sorry, this page was not found or is not available at this time thank you."</p>
-			<img src="images/logo.png">
+		<div data-role="content" data-theme="a">	
+			<ul data-role="listview" data-inset="true" data-divider-theme="b">
+				<li data-role="list-divider">Recent News</li>
+				<li>
+					<div class="ui-grid-a">
+						<div class="ui-block-a"><img src="images/user1.jpg"></div>
+						<div class="ui-block-b">
+							<br>
+							<p>APR/18</p>
+							<p>There will be</p>
+							<p>a cake class hosted</p>
+							<p>in building 6 downtown</p>
+							<p>seya there!!!</p>
+						</div>
+						
+					</div>
+				</li>
+				<li>
+					<div class="ui-grid-a">
+						<div class="ui-block-a"><img src="images/logo2.jpg"></div>
+						<div class="ui-block-b">
+							<br>
+							<p>APR/14</p>
+							<p>Thank You everyone</p>
+							<p>that attended last</p>
+							<p>week's fondant class</p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="ui-grid-a">
+						<div class="ui-block-a"><img src="images/user2.jpg"></div>
+						<div class="ui-block-b">
+							<br>
+							<p>APR/10</p>
+							<p>Just Heard!!!</p>
+							<p>there will be a 25% sale</p>
+							<p>this month on all</p>
+							<p>products!!!</p>
+						</div>
+					</div>
+				</li>
+			</ul>
 		</div>
 		<div data-role="footer" data-position="fixed" data-id="home" data-theme="a">
 			<div data-role="navbar">
 				<ul>
 					<li><a href="index.html" data-icon="home">Home</a></li>
 					<li><a href="#About" data-icon="info">About</a></li>
-					<li><a href="#Error" data-icon="grid">News</a></li>
+					<li><a href="#NewStream" data-icon="grid" class="ui-btn-active">News</a></li>
 					<li><a href="#Error" data-icon="gear">Terms</a></li>
 				</ul>
 			</div>
 		</div>
+	</div>	
 
-	</div>
-<!-- Form Page -->
-
-<div data-role"page" id="formpage">
-	
-		<div data-role="header" >
-			<div class="ui-grid-a">
-				<div class="ui-block-a"><img src="images/logo.png"></div>
-				<div class="ui-block-b">
-						<h1>Cake Designs</h1>					
-				</div>
-			</div>
-		</div>
-
-			<div data-role="content" data-theme="a">
-				<form action="" method="post" id="formOne" data-theme="a">
-					<div data-role="fieldcontain">
-						<fieldset data-role="controlgroup">
-							<legend><h2>Form Selection</h2></legend>
-								<input type="search" name="searchForm" id="searchForm" placeholder="Search this form">
-								<h3>Please choose type of form below!</h3>
-								<input type="radio" value="Place Order" name="place-Order-Radio" id="place-Order-Radio-1">
-								<label for="place-Order-Radio-1">Place Order</label>
-								<input type="radio" value="Information Request" name="information-request" id="information-request-2">
-								<label for="information-request-2">Information Request</label>
-								<input type="radio" value="Subscribe to Newsletter" name="newsletter-radio" id="newsletter-radio-3">
-								<label for="newsletter-radio-3">Subscribe to Newsletter</label>
-						</fieldset>
-					</div>
-					
-						<legend><h2>Fill Out Form Below</h2></legend>
-							
-							<div data-role="fieldcontain">
-								<label for="first-Name">First Name:</label>
-								<input type="text" name="first-Name" id="firs-Name" class="required" placeholder="First Name">
-								<label for="last-name">Last Name:</label>
-								<input type="text" name="last-name" id="last-name" placeholder="Last Name" class="required">
-								<label for="your-email">Enter Your Email:</label>
-								<input type="text" name="your-email" id="your-email" placeholder="SampleEmail@host.com" class="required email">
-							</div>
-							<div data-role="fieldcontain">
-								 <label for="select-activity" class="select">Type of Activity:</label>
-								 <select name="select-activity" id="select-activity">
-								     <option data-placeholder="true">Choose An Activity</option>
-								     <option value="birthdays">Birthdays</option>
-								     <option value="graduation">Graduation</option>
-								     <option value="school activity">School Activity</option>
-								     <option value="adult birthdays">Adult Birthdays</option>
-								     <option value="weddings">Weddings</option>
-								     <option value="bachelor party">Bachelor Party</option>
-								     <option value="bachelorette party">Bachelorette Party</option>
-									 <option value="baby shower">Baby Shower</option>
-									 <option value="job related">Job Related</option>
-									 <option value="going away">Going Away</option>
-									 <option value="get well">Get Well</option>
-									 <<option value="other">Other</option>
-								</select>
-								<label for="choose-flavor" class="select">Flavor Type:</label>
-								<select name="choose-flavor" id="choose-flavor">
-									<option data-placeholder="true">Choose Your Flavor</option>
-									<option value="flavor one">Flavor 1</option>
-									<option value="flavor two">Flavor 2</option>
-									<option value="flavor three">Flavor 3</option>
-								</select>
-							</div>
-							<div data-role="fieldcontain">
-								<div class="ui-grid-a">
-									<div class="ui-block-a">
-										<label for="people-slider">How Many People?</label>
-										<input type="number" data-type="range" name="people-slider" id="people-slider" value="0" min="0" max="500" data-theme="a" data-track-theme="b">
-									</div>
-									<div class="ui-block-b">
-										<label for="delivery-method">Delivery Method:</label>
-										<select data-role="slider">
-											<option value="off">Pickup</option>
-											<option value="on">Deliver</option>
-										</select>
-									</div>
-							</div>
-							<div data-role="fieldcontain">
-								<fieldset data-role="controlgroup" data-type="horizontal">
-									<label for="date-wanted">Enter a delivery or pickup date</label>
-									<input type="date" name="date-wanted" id="date-wanted">
-								</fieldset>
-							</div>
-							<div data-role="fieldcontain">
-								<label for="textArea"> Additional Information:</label>
-								<textarea name="additional-info" id="additional-info">Any additional information requested fill this area up!!</textarea>
-							</div>
-							<div data-role="fieldcontain">
-								<input type="submit"value="Submit Form" data-theme="b" name="submit-button" id="submit-button">
-							
-							</div> 
-							<div data-role="fieldcontain">
-								<input type="reset" value="Reset" data-theme="a" name="reset-button" id="reset-button">
-							</div>
-							
-							<a href="errorDialog.html" id="ErrorLink" data-rel="dialog" data-role="button" data-transition="pop">Open dialog</a>
-							
-					</form>
-			</div>
-			<div data-role="footer" data-position="fixed" data-id="home" data-theme="a">
-				<div data-role="navbar">
-					<ul>
-						<li><a href="index.html" data-icon="home">Home</a></li>
-						<li><a href="#About" data-icon="info">About</a></li>
-						<li><a href="#Error" data-icon="grid">News</a></li>
-						<li><a href="#Error" data-icon="gear">Terms</a></li>
-					</ul>
-				</div>
-			</div>
-	</div>
-	
 	
 <!-- JS for JQuery mobile and JQuery -->
 <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
-<script type="text/javascript" src="js/libs/jquery.validate.min.js"></script>
 <script type="text/javascript" src="js/main2.js"></script> 
 </body>
 </html>

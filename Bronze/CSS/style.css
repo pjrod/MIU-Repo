@@ -1,11 +1,11 @@
 /*
 Pedro J Rodriguez
-MIU 1303
- 06Mar2013
+MIU 1304
+Style Sheet
 */
 
 body{
-	background-color: #033544;
+	background-color: #1e1c1b;
 	font-family: Arial;
 	color: aqua;
 	
@@ -47,10 +47,10 @@ body{
 }
 
 
-/*h1 {
-	padding: 20px ;
+h1 {
+	padding: 0px 28px 15px 30px ;
 	border: 2px solid rgba(3,167,203,1) ;
-	margin: 5px 20px 5px 20px ;
+	margin: 0px 20px 5px 20px ;
 	color: #00b3ff;
 	background-color: black;
 	background-image: url(../Images/logo.png);
@@ -60,13 +60,11 @@ body{
 	border-radius: 10px;
 	text-shadow: 0px 0px 0px #02eaff;
 	text-align: right;
-	
-}*/
-
-/*li{
+}
+li{
 	display:block;
 	
-}*/
+}
 
 h3 {
 	font-style: normal;
@@ -87,11 +85,11 @@ h3 {
 }*/
 
 
-/*Label {
+Label {
 	font-family: "Times New Roman";
 	
 }
-*/
+
 #firstName {
 	display: block;
 	
@@ -165,13 +163,11 @@ textarea {
 
 
 #formFeature {
-	background-color: #000000;
+	background-color: black;
 	border: 1px solid black;
-	border-radius: 22px;
 	text-align:  left;
-	position: relative;
+	position: left;
 	background-size: 50px;
-	display:-webkit-box;
 	font-family: fantasy;
 	
 	
@@ -222,17 +218,18 @@ textarea {
 	background-color: #000000;
 	border-radius: 22px;
 	position: relative;
-	margin: 7px;
+	margin: 2px;
 	width: 200px;
 	text-align: -webkit-center;
-	color: aqua; 
+	color: #ffffff; 
 	width: 100%;
 	border: 1px inset #02cdfb;
 	margin-left: -20px;
+	font-size: 12pt;
 }
 
-/*#footer {
-	background-color: #b4b9ba;
+#footer {
+	
 	border-radius: 22px;
 	position: relative;
 	margin: 7px;
@@ -242,17 +239,55 @@ textarea {
 	border: 1px inset #02cdfb;
 	margin-top: 25px;
 	
-}*/
+}
 
 #welcome{
 	text-align: center;
+	color: white;
+}
+
+#formFeatureButtonOne {
+	margin: 52px 47px 0px 26px;
+	background-color: aqua;
+	color: #00c4ff;
+	font-size: 12pt;
+	
+	
+}
+#formFeatureButtonTwo {
+	margin-left: 50px;
+	margin-bottom: -100;
+	background-color: black;
+	color: #00c4ff;
+	font-size: 12pt;
+}
+
+#product {
 	color: aqua;
 }
-
-
-label.error{
-	display: block; margin: 10px 0; color:#f50505;
+#galleries {
+	color: aqua;
 }
-#ErrorLink{
-	display: none;
+#order {
+	color: aqua;
+}
+#calendar {
+	color: aqua;
+}
+#video {
+	color: aqua;
+}
+#headingText {
+	display: left;
+	font-size: 10pt;
+	
+}
+#cakeDesigns {
+	font-size: 25pt;
+	margin-bottom: -20px;
+	margin-top: -10px;
+	margin-left: -70px;
+}
+#cakeforproducts{
+	position: relative;
 }
