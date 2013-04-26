@@ -1,6 +1,10 @@
+/*style for jqm
+*/
+
 label.error{
-	display: block; margin: 10px 0; color:#f50505;
+	display: block; margin: 12px 0; color:#f50505;
+	font-size: 12pt;
 }
-#formErrorLink{
+#fErrors{
 	display: none;
 }
