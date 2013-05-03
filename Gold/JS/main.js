@@ -1,7 +1,6 @@
 /*
 Pedro J Rodriguez
-VFW Project 4
-0113 31Jan2013
+MIU 1304
 */
 window.addEventListener("DOMContentLoaded", function(){
 	

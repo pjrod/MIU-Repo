@@ -1,18 +1,10 @@
 /*style for jqm
 */
-
-label.error{
-	display: block; margin: 12px 0; color:#f50505;
-	font-size: 12pt;
-}
-#fErrors{
-	display: none;
-}
 .ui-btn-up-b {
 	font-family: fantasy;
 }
 .ui-body-a {
-	background-image: url(../Images/backgroundLogo.png);
+	background-image: linear-gradient(#dce51c 24.17%, rgba(0,0,0,0.95) 80.13%);
 	background-position: center center;
 	background-repeat: no-repeat;	
 	background-size: contain;
@@ -32,4 +24,7 @@ label.error{
 #minilogo {
 	margin-left: 30px;
 	margin-top:  10px;
+}
+.ui-content {
+	
 }
